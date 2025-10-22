@@ -112,14 +112,14 @@ export default function ContactPage() {
                 <div className="bg-government-orange text-white w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <FaEnvelope className="text-xl" />
                 </div>
-                {/* <div>
+                <div>
                   <h3 className="font-bold text-government-blue mb-2 text-lg">
                     {t("contact.email")}
                   </h3>
                   <p className="text-gray-700 text-sm sm:text-base break-all">
-                   
+                    gpkaslingwadi1964@gmail.com
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
 
@@ -302,7 +302,7 @@ export default function ContactPage() {
             </div>
             <div className="w-full aspect-[3/2] bg-gray-200 relative overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61003.05103349612!2d74.21854826767871!3d17.13658075196192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3bc175d5f96fa367%3A0xdebc9d20bfff5ceb!2sNarsinhpur%2C%20Maharashtra%20415409!3m2!1d17.1365029!2d74.2597483!4m0!5e0!3m2!1sen!2sin!4v1760805265432!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12883.83014410039!2d75.14184005!3d17.1921299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc6b745392147db%3A0x9bc51bd268379826!2sKaslingwadi%2C%20Maharashtra%20416404!5e1!3m2!1sen!2sin!4v1761123747054!5m2!1sen!2sin"
                 width="1200"
                 height="800"
                 loading="lazy"

@@ -23,7 +23,7 @@ export default function AdministrationPage() {
       MarathiName: "माया सुर्यकांत हरिबा मुठेकर",
       EnglishName: "Maya Suryakant Hariba Muthekar",
       positionKey: "सरपंच / Sarpanch",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/सरपंच.jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-8767183547",
       phoneDevnagari: "+९१-८७६७१८३५४७",
       email: "tusharmutekar1@gmail.com",
@@ -43,7 +43,7 @@ export default function AdministrationPage() {
       MarathiName: "अर्चन तुकाराम खिलारे",
       EnglishName: "Archana Tukaram Khilare",
       positionKey: "ग्रामसेवक / Gramsevak",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/ग्रामपंचायत अधिकारी.jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-9021973762",
       phoneDevnagari: "+९१-९०२१९७३७६२",
       email: "archanak445@gmail.com",
@@ -65,7 +65,7 @@ export default function AdministrationPage() {
       MarathiName: "तेजस्विनी महादेव नरळे",
       EnglishName: "Tejaswini Mahadev Narale",
       positionKey: "सदस्य / Member",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/दिपाली दिलीप धुमाळ (सदस्य).jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-9226354216",
       phoneDevnagari: "+९१-९२२६३५४२१६",
       email: "gpkaslinwadi1964@gmail.com",
@@ -75,7 +75,7 @@ export default function AdministrationPage() {
       MarathiName: "बाबासो भिमराव कोळी ",
       EnglishName: "Babaso Bhimrao Koli",
       positionKey: "सदस्य / Member",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/दयानंद भिमराव सुर्वे (सदस्य).jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-9421159904",
       phoneDevnagari: "+९१-९४२११५९९०४",
       email: "gpkaslinwadi1964@gmail.com",
@@ -85,7 +85,7 @@ export default function AdministrationPage() {
       MarathiName: "द्वारकाबाई नानासो कुटे",
       EnglishName: "Dwarakabai Nanasa Kutte",
       positionKey: "सदस्य / Member",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/वंदना अनंत बारटक्के (सदस्य).jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-9766424109",
       phoneDevnagari: "+९१-९७६६४२४१०९",
       email: "gpkaslinwadi1964@gmail.com",
@@ -95,7 +95,7 @@ export default function AdministrationPage() {
       MarathiName: "विकास नामदेव  मुठेकर",
       EnglishName: "Vikas Namdev Muthekar",
       positionKey: "सदस्य / Member",
-      image: "/images/Profile_Picture/grampanchayat_narsingpur/सागर नागेश कुंभार (सदस्य).jpeg",
+      image: "/images/Seal_of_Maharashtra.svg.png",
       phone: "+91-9370255464",
       phoneDevnagari: "+९१-९३७०२५५४६४",
       email: "gpkaslinwadi1964@gmail.com",
@@ -103,25 +103,6 @@ export default function AdministrationPage() {
   ];
 
   // const administrativeStaff = [
-  //   {
-  //     id: 7,
-  //     MarathiName: "संतोष भिमराव पाटील",
-  //     EnglishName: "Santosh Bhimrao Patil",
-  //     position: "पोलीस पाटील /Police Patil",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9270001001",
-  //     phoneDevnagari: "+९१-९२७०००१००१",
-  //   },
-  //   {
-  //     id: 8,
-  //     MarathiName: "संतोष जयवंत जगताप ",
-  //     EnglishName: "Santosh Jaywant Jagtap",
-  //     position:
-  //       "तंटामुक्ती अध्यक्ष / President, Dispute-Free Village Committee",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9689845978",
-  //     phoneDevnagari: "+९१-९६८९८४५९७८",
-  //   },
   // ];
 
   const committees = [
@@ -183,16 +164,18 @@ export default function AdministrationPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
-                  <div className="w-24 h-32 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white">
-                    { <Image
-                      src={member.image}
-                      alt={"member.name"}
-                      width={500}
-                      height={500}
-                      className="w-full h-full object-cover"
-                    /> }
-                   
-
+                  <div className="w-24 h-34 mx-auto mb-3 rounded-full overflow-hidden ">
+                    {member.image.length > 0 ? (
+                      <Image
+                        src={member.image}
+                        alt={"member.name"}
+                        width={500}
+                        height={500}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <FaUserTie className="text-4xl sm:text-5xl text-government-orange mr-4" />
+                    )}
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold">
                     {member.positionKey}

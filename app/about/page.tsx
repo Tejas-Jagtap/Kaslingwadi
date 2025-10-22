@@ -142,16 +142,6 @@ export default function AboutPage() {
                   {t("intro.females")}
                 </p>
               </div>
-
-              {/* Total Area */}
-              <div className="bg-[#0A1931] bg-opacity-10 p-4 rounded-lg text-center">
-                <h3 className="text-2xl sm:text-3xl font-bold text-[#0A1931]">
-                  {language === "en" ? "" : ""}
-                </h3>
-                <p className="text-gray-700 text-sm sm:text-base">
-                  {t("common.hectares")}
-                </p>
-              </div>
             </div>
           </div>
         </section>
@@ -204,7 +194,6 @@ export default function AboutPage() {
                 <ul className="space-y-2 text-gray-700">
                   <li>• {t("about.sarpanch")}</li>
                   <li>• {t("about.upSarpanch")}</li>
-                  <li>• {t("about.wardMembers")}</li>
                   <li>• {t("about.standingCommittee")}</li>
                 </ul>
               </div>
@@ -216,7 +205,6 @@ export default function AboutPage() {
                   <li>• {t("about.gramSevak")}</li>
                   <li>• {t("about.secretary")}</li>
                   <li>• {t("about.accountant")}</li>
-                  <li>• {t("about.supportStaff")}</li>
                 </ul>
               </div>
             </div>
