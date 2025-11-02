@@ -20,30 +20,30 @@ export default function AdministrationPage() {
     // Head Officials
     {
       id: 1,
-      MarathiName: "माया सुर्यकांत हरिबा मुठेकर",
-      EnglishName: "Maya Suryakant Hariba Muthekar",
+      MarathiName: "श्रीमती माया सुर्यकांत हरिबा मुठेकर",
+      EnglishName: "Mrs. Maya Suryakant Hariba Muthekar",
       positionKey: "सरपंच / Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/sarpanch.jpg",
       phone: "+91-8767183547",
       phoneDevnagari: "+९१-८७६७१८३५४७",
       email: "tusharmutekar1@gmail.com",
     },
     {
       id: 2,
-      MarathiName: "संगीता नामदेव नरळे",
-      EnglishName: "Sangita Namdev Narale",
+      MarathiName: "श्रीमती संगीता नामदेव नरळे",
+      EnglishName: "Mrs. Sangita Namdev Narale",
       positionKey: "उप-सरपंच / Deputy Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/upsarpanch.jpg",
       phone: "+91-9307334137",
       phoneDevnagari: "+९१-९३०७३३४१३७",
       email: "naralesangita29@gmail.com",
     },
     {
       id: 3,
-      MarathiName: "अर्चन तुकाराम खिलारे",
-      EnglishName: "Archana Tukaram Khilare",
-      positionKey: "ग्रामसेवक / Gramsevak",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      MarathiName: "श्रीमती अर्चना तुकाराम खिलारे",
+      EnglishName: "Mrs. Archana Tukaram Khilare",
+      positionKey: "ग्रामपंचायत अधिकारी / Grampanchayat Adhikari",
+      image: "/images/gramsevak.jpg",
       phone: "+91-9021973762",
       phoneDevnagari: "+९१-९०२१९७३७६२",
       email: "archanak445@gmail.com",
@@ -52,77 +52,53 @@ export default function AdministrationPage() {
     // Ward Members
     {
       id: 4,
-      MarathiName: "युवराज लक्ष्मण कुठे",
-      EnglishName: "Yuvraj Laxman Kuthe",
+      MarathiName: "श्री युवराज लक्ष्मण कुठे",
+      EnglishName: "Mr. Yuvraj Laxman Kuthe",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/yugraj.jpg",
       phone: "+91-9765437330",
       phoneDevnagari: "+९१-९७६५४३७३३०",
       email: "gpkaslinwadi1964@gmail.com",
     },
     {
       id: 5,
-      MarathiName: "तेजस्विनी महादेव नरळे",
-      EnglishName: "Tejaswini Mahadev Narale",
-      positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      MarathiName: "श्रीमती तेजस्विनी महादेव नरळे",
+      EnglishName: "Mrs. Tejaswini Mahadev Narale",
+      positionKey: "सदस्या / Member",
+      image: "/images/narale.jpg",
       phone: "+91-9226354216",
       phoneDevnagari: "+९१-९२२६३५४२१६",
       email: "gpkaslinwadi1964@gmail.com",
     },
     {
       id: 6,
-      MarathiName: "बाबासो भिमराव कोळी ",
-      EnglishName: "Babaso Bhimrao Koli",
+      MarathiName: "श्री बाबासो भिमराव कोळी",
+      EnglishName: "Mr. Babaso Bhimrao Koli",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/babaso_koli.jpg",
       phone: "+91-9421159904",
       phoneDevnagari: "+९१-९४२११५९९०४",
       email: "gpkaslinwadi1964@gmail.com",
     },
     {
       id: 7,
-      MarathiName: "द्वारकाबाई नानासो कुटे",
-      EnglishName: "Dwarakabai Nanasa Kutte",
-      positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      MarathiName: "श्रीमती द्वारकाबाई नानासो कुटे",
+      EnglishName: "Mrs. Dwarakabai Nanasa Kutte",
+      positionKey: "सदस्या / Member",
+      image: "/images/darakabai_kute.jpg",
       phone: "+91-9766424109",
       phoneDevnagari: "+९१-९७६६४२४१०९",
       email: "gpkaslinwadi1964@gmail.com",
     },
     {
       id: 8,
-      MarathiName: "विकास नामदेव  मुठेकर",
-      EnglishName: "Vikas Namdev Muthekar",
+      MarathiName: "श्री विकास नामदेव मुठेकर",
+      EnglishName: "Mr. Vikas Namdev Muthekar",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/vikas_mutekar.jpg",
       phone: "+91-9370255464",
       phoneDevnagari: "+९१-९३७०२५५४६४",
       email: "gpkaslinwadi1964@gmail.com",
-    },
-  ];
-
-  // const administrativeStaff = [
-  // ];
-
-  const committees = [
-    {
-      nameKey: "admin.standingCommittee",
-      icon: FaClipboardList,
-      members: 5,
-      responsibilityKey: "admin.standingResp",
-    },
-    {
-      nameKey: "admin.financeCommittee",
-      icon: FaBalanceScale,
-      members: 4,
-      responsibilityKey: "admin.financeResp",
-    },
-    {
-      nameKey: "admin.developmentCommittee",
-      icon: FaUsers,
-      members: 6,
-      responsibilityKey: "admin.developmentResp",
     },
   ];
 
@@ -164,23 +140,26 @@ export default function AdministrationPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
-                  <div className="w-24 h-34 mx-auto mb-3 rounded-full overflow-hidden ">
-                    {member.image.length > 0 ? (
+                  <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white shadow-md">
+                    {member.image && member.image.length > 0 ? (
                       <Image
                         src={member.image}
-                        alt={"member.name"}
-                        width={500}
-                        height={500}
-                        className="w-full h-full object-cover"
+                        alt={member.EnglishName}
+                        width={96} // 24 * 4 = 96px
+                        height={96}
+                        className="w-full h-full object-cover rounded-full"
                       />
                     ) : (
-                      <FaUserTie className="text-4xl sm:text-5xl text-government-orange mr-4" />
+                      <div className="flex items-center justify-center w-full h-full bg-white rounded-full">
+                        <FaUserTie className="text-4xl text-government-blue" />
+                      </div>
                     )}
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold">
                     {member.positionKey}
                   </h3>
                 </div>
+
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-government-blue mb-2">
                     {language === "mr"
